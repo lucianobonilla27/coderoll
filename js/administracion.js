@@ -243,7 +243,7 @@ const Administracion = {
 // Cargar canciones almacenadas en localStorage al cargar la página
 Administracion.cargarCancionesDesdeLocalStorage();
 
-// Agregar tres canciones de ejemplo si no hay canciones en localStorage
+// Agregar canciones de ejemplo si no hay canciones en localStorage
 if (Administracion.canciones.length === 0) {
     const cancionesEjemplo = [
         {
